@@ -20,5 +20,5 @@ You can bind port 5000 if you need to add other workers.
 You can (and should) bind a volume to /var/jenkins_home to keep data persistant (plugins and configuration)
 
 ```$xslt
-docker run -p 8080:8080 -p 50000:50000 -v /your/home/jenkins:/var/jenkins_home jenkins
+docker run -p 8080:8080 -p 50000:50000 -v /your/home/jenkins:/var/jenkins_home ctwj/jenkins-ansible
 ```
