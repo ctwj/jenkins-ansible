@@ -4,6 +4,8 @@ Provides an image based on official jenkins/jenkins, with ansible support.
 
 Ansible is installed by pip, to get the latest available version.
 
+Add sshpass to support ansible login with ssh name password.
+
 Will be updated each time a new jenkins image is provided. 
 
 # Options
