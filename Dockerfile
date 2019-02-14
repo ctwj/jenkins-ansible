@@ -6,4 +6,4 @@ RUN apt-get update && apt-get install -y python-pip  && apt-get install -y sshpa
 RUN pip install ansible
 ADD ./ansible.cfg /etc/ansible/ansible.cfg
 
-USER root
+USER jenkins
