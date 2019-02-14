@@ -15,7 +15,7 @@ All standard jenkins options are available
 ## Ports
 
 You have to bind port 8080 to access to the web interface.
-You can bind port 5000 if you need to add other workers.
+You can bind port 50000 if you need to add other workers.
 
 ## Volumes
 
